@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".EditProduct">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Id"
+            android:textColorHint="@color/whiteTransparentHalf"
+            android:background="@drawable/editbg_white"
+            android:inputType="number"
+            android:maxLength="12"
+            android:padding="10sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="15sp"
+            android:textColor="@color/white"
+            android:id="@+id/edit_id"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Name"
+            android:textColorHint="@color/whiteTransparentHalf"
+            android:background="@drawable/editbg_white"
+            android:padding="10sp"
+            android:inputType="text"
+            android:maxLength="12"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="15sp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:id="@+id/edit_name"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:hint="Description"
+            android:textColorHint="@color/whiteTransparentHalf"
+            android:background="@drawable/editbg_white"
+            android:padding="10sp"
+            android:maxLength="100"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="15sp"
+            android:id="@+id/edit_desc"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:hint="Quantity"
+            android:textColorHint="@color/whiteTransparentHalf"
+            android:background="@drawable/editbg_white"
+            android:padding="10sp"
+            android:inputType="number"
+            android:maxLength="7"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="15sp"
+            android:id="@+id/edit_quantity"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:hint="MRP"
+            android:textColorHint="@color/whiteTransparentHalf"
+            android:background="@drawable/editbg_white"
+            android:padding="10sp"
+            android:inputType="number"
+            android:maxLength="7"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="15sp"
+            android:id="@+id/edit_mrp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:hint="Price"
+            android:textColorHint="@color/whiteTransparentHalf"
+            android:background="@drawable/editbg_white"
+            android:padding="10sp"
+            android:maxLength="7"
+            android:inputType="number"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="15sp"
+            android:id="@+id/edit_price"/>
+
+        <ImageButton
+            android:id="@+id/edit_camera"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_camera" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="10sp"
+            android:id="@+id/edit_link"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/edit_save"
+            android:padding="15sp"
+            android:background="@drawable/button_gery_rectangle"
+            android:textColor="@color/white"
+            android:text="Save Data"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

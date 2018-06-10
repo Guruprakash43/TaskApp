@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "727341969710",
+    "firebase_url": "https://springlr-e4b25.firebaseio.com",
+    "project_id": "springlr-e4b25",
+    "storage_bucket": "springlr-e4b25.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727341969710:android:060294c580ea273e",
+        "android_client_info": {
+          "package_name": "com.springlrtask.www.taskapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "727341969710-pm6kv5ut4uo71om4pb7ebniot3cvjm9d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.springlrtask.www.taskapp",
+            "certificate_hash": "5cd18229ef80ee41f97922d49185f0b2c14491a5"
+          }
+        },
+        {
+          "client_id": "727341969710-238ob3cds64tcic3jq2oq06p2l48d3q0.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "727341969710-238ob3cds64tcic3jq2oq06p2l48d3q0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmJzALwyXSmTnkwJR8mZqK70CS95wFGiM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "727341969710-238ob3cds64tcic3jq2oq06p2l48d3q0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
